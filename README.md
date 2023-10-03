@@ -56,7 +56,7 @@ const connection = mysql.createConnection({
   database: 'seu-banco-de-dados',
 });
 
-# 10 registros da tabela 'customers'
+# 10 registros da tabela 'customers':
 <br>
 
 function lerRegistros() {
