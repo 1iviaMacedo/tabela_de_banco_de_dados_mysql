@@ -1,6 +1,7 @@
 # Tabela: banco de Dados MySQL
 
-Aqui está o código para inserir 20 registros na tabela 'customers':
+# 20 registros na tabela 'customers':
+<br>
 
 const mysql = require('mysql');
 
@@ -55,7 +56,9 @@ const connection = mysql.createConnection({
   database: 'seu-banco-de-dados',
 });
 
-// Função para ler 10 registros da tabela 'customers'
+# 10 registros da tabela 'customers'
+<br>
+
 function lerRegistros() {
   connection.connect((err) => {
     if (err) {
